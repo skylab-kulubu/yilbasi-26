@@ -10,5 +10,4 @@ public interface PersonInfoDao extends JpaRepository<PersonInfo, UUID> {
 
     Optional<PersonInfo> findPersonInfoByUser_Email(String userEmail);
 
-
 }

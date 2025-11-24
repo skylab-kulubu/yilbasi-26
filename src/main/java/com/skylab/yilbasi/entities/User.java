@@ -22,8 +22,6 @@ public class User {
     @Column(name = "ldap_sky_number")
     private String ldapSkyNumber;
 
-    private String username;
-
     private String email;
 
     private String firstName;
